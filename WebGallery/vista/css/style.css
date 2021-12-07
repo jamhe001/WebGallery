@@ -1,0 +1,97 @@
+body {
+  display: block;
+  overflow-x: hidden;
+}
+
+.signup,
+.login {
+  background: linear-gradient(
+      39.4deg,
+      #b6a0ea -2.55%,
+      rgba(182, 160, 234, 0) 45.21%
+    ),
+    #f1ebff;
+}
+
+nav {
+  background-color: white;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #683aa4;
+}
+
+nav ul li a {
+  color: #a9a9a9;
+  font-size: 22px;
+  margin: auto 10px;
+}
+
+nav ul li a:hover {
+  color: #683aa4;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #683aa4;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#hero .col {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+#hero .img-col {
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+
+#hero img {
+  max-width: 130% !important;
+  width: 130%;
+}
+
+.btn-color {
+  background-color: #0e1c36;
+  color: #fff;
+}
+
+.btn-color:hover {
+  background-color: #293f69;
+  color: #fff;
+}
+
+.profile-image-pic {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.cardbody-color {
+  background-color: #ebf2fa;
+}
+
+a {
+  text-decoration: none;
+}
